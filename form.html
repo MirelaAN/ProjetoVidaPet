@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="images/favicon.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/form.css">
+    <link rel="stylesheet" href="style/header_footer.css">
+
+  </head>
+  <body>
+    <header class="principal">
+      <h1>
+        Cadastre-se
+      </h1>
+      <p>   
+        Cadastre-se agora e seja nosso aliado
+      </p>
+    </header>
+    <nav>
+      <a href="home.html">Home</a>
+        <a href="adoption.html">Adoções</a>
+        <a href="products.html">Produtos</a>
+        <a href="form.html">Cadastre-se</a>
+        <a href="abaut.html">Sobre</a>
+    </nav>
+
+    <form>
+
+      <h2>Dados de login</h2>
+
+      <fieldset class="client_login">
+        <label for="email">
+          E-mail:
+         <input type="email" id="email" placeholder="Digite seu e-mail" required>
+        </label>
+        <label for="confirm_email">
+          Confirmar:
+         <input type="email" id="confirm_email" placeholder="Confirmar e-mail" required>  
+        </label>
+        <label for="password">
+          Senha:
+         <input type="password" id="password" placeholder="Digite sua senha" required>
+        </label>
+        <label for="confirm_password">
+          Confirmar:
+         <input type="password" id="confirm_password" placeholder="Confirmar senha" required>
+        </label>
+
+      </fieldset>
+
+      <h2>Dados do cliente</h2>
+
+      <fieldset class="client_and_address">
+
+          <div class="client_data">
+
+            <label class="label_client" for="full_name">
+              Nome:
+              <input type="text" id="full_name" placeholder="Digite seu nome completo" required>
+            </label>
+
+            <label class="label_client" for="email_client">
+              E-mail:
+              <input type="email" id="email_client" placeholder="Digite seu e-mail" required>
+            </label>
+
+            <label class="label_client" for="phone">
+              Telefone:
+              <input type="tel" id="phone"  placeholder="Digite seu telefone com DDD" required>
+            </label>
+
+            <label class="label_client" for="mobile">
+              Celular:
+              <input type="tel" id="mobile" placeholder="Digite seu celular com DDD" required>
+            </label>
+
+            <label class="label_client" for="birth_date">
+              Data de nascimento:
+              <input type="date" id="birth_date" required>
+            </label>
+
+            <label class="label_client" for="individual_registration">
+              CPF:
+              <input type="number" id="individual_registration" placeholder="Digite seu CPF" required>
+            </label>
+
+            <label class="label_client" for="general_record">
+              RG:
+              <input type="number" id="general_record" placeholder="Digite seu RG" required>
+            </label>
+
+            <label class="label_client" for="gender">
+              Gênero:
+              <input type="text" id="gender" placeholder="Opcional">
+            </label>
+
+          </div>
+
+          <div class="client_address">  
+
+            <label class="label_client" for="address">
+              Endereço:
+              <input type="text" id="address" placeholder="Digite seu endereço" required>
+            </label>
+
+            <label class="label_client" for="zip_code">
+              CEP:
+              <input type="number" id="zip_code" placeholder="Digite seu CEP" required>
+            </label>
+
+            <label class="label_client" for="contact_address">
+              Endereço de contato:
+              <input type="text" id="contact_address" placeholder="Digite o endereço de contato">
+            </label>
+
+            <label class="label_client" for="number">
+              Número:
+              <input type="number" id="number" placeholder="Digite o número" required>
+            </label>
+
+            <label class="label_client" for="district">
+              Bairro:
+              <input type="text" id="district" placeholder="Digite seu bairro" required>
+            </label>
+
+            <label class="label_client" for="adjunct">
+              Complemento:
+              <input type="text" id="adjunct" placeholder="Digite um complemento" required>
+            </label>
+
+            <label class="label_client" for="city">
+              Cidade:
+              <input type="text" id="city" placeholder="Digite sua cidade" required>
+            </label>
+
+            <label class="label_client" for="state">
+              Estado:
+              <input type="text" id="state" placeholder="Digite o estado" required>
+            </label>
+          </div>
+      </fieldset>
+
+      <button>
+        Cadastrar
+      </button>
+
+    </form>
+
+    <footer>
+      <p>
+        ©Mirela Araújo - 2021
+      </p>
+    </footer>
+  </body>
+</html>
